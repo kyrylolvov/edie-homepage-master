@@ -1,0 +1,111 @@
+// Typography
+$fontLogo: "Heebo", sans-serif;
+$fontBody: "Poppins", sans-serif;
+
+// Colors
+$gray: #333333;
+$lightGray: #4f4f4f;
+$veryLightGray: #f2f2f2;
+$gray3: #828282;
+$anotherGray: #bdbdbd;
+$blue: #2d9cdb;
+
+body {
+  font-family: $fontBody;
+  font-weight: 500;
+  margin: 0;
+}
+header {
+  padding: 22px 42px;
+}
+.headerContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.websiteLogo {
+  text-decoration: none;
+  color: $gray;
+}
+.logoText {
+  font-family: $fontLogo;
+  margin: 0;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+ul li:not(:last-child) {
+  margin: 0 24px 0 0;
+}
+.navLink {
+  text-decoration: none;
+  font-weight: 500;
+  color: $gray;
+}
+.heroParagraph {
+  margin: 0;
+  font-size: 0.75rem;
+}
+.hero {
+  padding: 0px 52px;
+}
+.blueText {
+  color: $blue;
+  margin: 0 0 16px 0;
+}
+.heroHeading {
+  margin: 0;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.heroSectionHeading {
+  margin: 42px 10vw;
+}
+.heroImageWrapper {
+  background: url(/heroImage.jpg);
+  background-repeat: no-repeat;
+  min-height: 354px;
+  margin: 0 auto;
+  max-width: 1332px;
+  border-radius: 18px;
+}
+.underHero {
+  width: 260px;
+}
+.grayText {
+  color: $lightGray;
+  margin: 16px 0 0 0;
+}
+.contactSection {
+  margin: 42px 0 0 0;
+}
+.contactInput {
+  background-color: $veryLightGray;
+  border: none;
+  padding: 15px 21px;
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 21px;
+  font-family: $fontBody;
+  color: $anotherGray;
+  outline: none;
+}
+.joinButton {
+  background-color: $blue;
+  font-family: $fontBody;
+  color: white;
+  border: none;
+  position: absolute;
+  margin-left: -86px;
+  margin-top: 4px;
+  border-radius: 10px;
+  padding: 11px 27px;
+  outline: none;
+}
+.contactText {
+  color: $gray3;
+  font-size: 0.75rem;
+  margin: 0 0 9px 0;
+}
